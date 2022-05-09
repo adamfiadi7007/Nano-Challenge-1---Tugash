@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36268BA728192E6B00963A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36268BA628192E6B00963A17 /* AppDelegate.swift */; };
+		36268BA928192E6B00963A17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36268BA828192E6B00963A17 /* SceneDelegate.swift */; };
+		36268BAB28192E6B00963A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36268BAA28192E6B00963A17 /* ViewController.swift */; };
+		36268BAE28192E6B00963A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36268BAC28192E6B00963A17 /* Main.storyboard */; };
+		36268BB028192E6D00963A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36268BAF28192E6D00963A17 /* Assets.xcassets */; };
+		36268BB328192E6D00963A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36268BB128192E6D00963A17 /* LaunchScreen.storyboard */; };
+		36268BBB2819330D00963A17 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36268BBA2819330D00963A17 /* MainTabBarViewController.swift */; };
+		36268BBE281A580000963A17 /* Bungee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36268BBD281A4C2A00963A17 /* Bungee-Regular.ttf */; };
+		36268BED281A902F00963A17 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36268BEC281A902F00963A17 /* TasksViewController.swift */; };
+		3676072428266EEA00546BC4 /* scienceMajorTaskOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676072328266EEA00546BC4 /* scienceMajorTaskOrganizer.swift */; };
+		36CE94E828258D2700C51840 /* scienceMajor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE94E728258D2700C51840 /* scienceMajor.swift */; };
+		36D018B62826A07600C859CB /* ScienceTaskOrganizer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D018B42826A07600C859CB /* ScienceTaskOrganizer.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36268BA328192E6B00963A17 /* Nano Challenge 1 - Tugash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 1 - Tugash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36268BA628192E6B00963A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36268BA828192E6B00963A17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36268BAA28192E6B00963A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36268BAD28192E6B00963A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36268BAF28192E6D00963A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36268BB228192E6D00963A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36268BB428192E6D00963A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36268BBA2819330D00963A17 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		36268BBD281A4C2A00963A17 /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bungee-Regular.ttf"; sourceTree = "<group>"; };
+		36268BEC281A902F00963A17 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		3676072328266EEA00546BC4 /* scienceMajorTaskOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceMajorTaskOrganizer.swift; sourceTree = "<group>"; };
+		36CE94E728258D2700C51840 /* scienceMajor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceMajor.swift; sourceTree = "<group>"; };
+		36D018B52826A07600C859CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Nano Challenge 1 - Tugash/Base.lproj/ScienceTaskOrganizer.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36268BA028192E6B00963A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36268B9A28192E6B00963A17 = {
+			isa = PBXGroup;
+			children = (
+				36268BA528192E6B00963A17 /* Nano Challenge 1 - Tugash */,
+				36268BA428192E6B00963A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36268BA428192E6B00963A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36268BA328192E6B00963A17 /* Nano Challenge 1 - Tugash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36268BA528192E6B00963A17 /* Nano Challenge 1 - Tugash */ = {
+			isa = PBXGroup;
+			children = (
+				36268BC0281A5F9600963A17 /* Tab Bar */,
+				36268BBF281A5F8500963A17 /* Home */,
+				36268BBC281A4B9900963A17 /* Fonts */,
+				36268BA628192E6B00963A17 /* AppDelegate.swift */,
+				36268BA828192E6B00963A17 /* SceneDelegate.swift */,
+				36268BAC28192E6B00963A17 /* Main.storyboard */,
+				36268BEC281A902F00963A17 /* TasksViewController.swift */,
+				36268BAF28192E6D00963A17 /* Assets.xcassets */,
+				36268BB128192E6D00963A17 /* LaunchScreen.storyboard */,
+				36268BB428192E6D00963A17 /* Info.plist */,
+			);
+			path = "Nano Challenge 1 - Tugash";
+			sourceTree = "<group>";
+		};
+		36268BBC281A4B9900963A17 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				36268BBD281A4C2A00963A17 /* Bungee-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		36268BBF281A5F8500963A17 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36268BAA28192E6B00963A17 /* ViewController.swift */,
+				36268BC1281A5FAF00963A17 /* Major Subject Template */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36268BC0281A5F9600963A17 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				36268BBA2819330D00963A17 /* MainTabBarViewController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		36268BC1281A5FAF00963A17 /* Major Subject Template */ = {
+			isa = PBXGroup;
+			children = (
+				36CE94E728258D2700C51840 /* scienceMajor.swift */,
+				36268BF0281B9F8A00963A17 /* Task Oragnizer */,
+			);
+			path = "Major Subject Template";
+			sourceTree = "<group>";
+		};
+		36268BF0281B9F8A00963A17 /* Task Oragnizer */ = {
+			isa = PBXGroup;
+			children = (
+				36D018B42826A07600C859CB /* ScienceTaskOrganizer.storyboard */,
+				3676072328266EEA00546BC4 /* scienceMajorTaskOrganizer.swift */,
+			);
+			path = "Task Oragnizer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36268BA228192E6B00963A17 /* Nano Challenge 1 - Tugash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36268BB728192E6D00963A17 /* Build configuration list for PBXNativeTarget "Nano Challenge 1 - Tugash" */;
+			buildPhases = (
+				36268B9F28192E6B00963A17 /* Sources */,
+				36268BA028192E6B00963A17 /* Frameworks */,
+				36268BA128192E6B00963A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano Challenge 1 - Tugash";
+			productName = "Nano Challenge 1 - Tugash";
+			productReference = 36268BA328192E6B00963A17 /* Nano Challenge 1 - Tugash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36268B9B28192E6B00963A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					36268BA228192E6B00963A17 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 36268B9E28192E6B00963A17 /* Build configuration list for PBXProject "Nano Challenge 1 - Tugash" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36268B9A28192E6B00963A17;
+			productRefGroup = 36268BA428192E6B00963A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36268BA228192E6B00963A17 /* Nano Challenge 1 - Tugash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36268BA128192E6B00963A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36268BBE281A580000963A17 /* Bungee-Regular.ttf in Resources */,
+				36268BB328192E6D00963A17 /* LaunchScreen.storyboard in Resources */,
+				36268BB028192E6D00963A17 /* Assets.xcassets in Resources */,
+				36D018B62826A07600C859CB /* ScienceTaskOrganizer.storyboard in Resources */,
+				36268BAE28192E6B00963A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36268B9F28192E6B00963A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36268BAB28192E6B00963A17 /* ViewController.swift in Sources */,
+				3676072428266EEA00546BC4 /* scienceMajorTaskOrganizer.swift in Sources */,
+				36268BBB2819330D00963A17 /* MainTabBarViewController.swift in Sources */,
+				36268BA728192E6B00963A17 /* AppDelegate.swift in Sources */,
+				36CE94E828258D2700C51840 /* scienceMajor.swift in Sources */,
+				36268BED281A902F00963A17 /* TasksViewController.swift in Sources */,
+				36268BA928192E6B00963A17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36268BAC28192E6B00963A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36268BAD28192E6B00963A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36268BB128192E6D00963A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36268BB228192E6D00963A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		36D018B42826A07600C859CB /* ScienceTaskOrganizer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D018B52826A07600C859CB /* Base */,
+			);
+			name = ScienceTaskOrganizer.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36268BB528192E6D00963A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36268BB628192E6D00963A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36268BB828192E6D00963A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K7552J4N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano Challenge 1 - Tugash/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfiadi.Nano-Challenge-1---Tugash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36268BB928192E6D00963A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K7552J4N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano Challenge 1 - Tugash/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfiadi.Nano-Challenge-1---Tugash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36268B9E28192E6B00963A17 /* Build configuration list for PBXProject "Nano Challenge 1 - Tugash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36268BB528192E6D00963A17 /* Debug */,
+				36268BB628192E6D00963A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36268BB728192E6D00963A17 /* Build configuration list for PBXNativeTarget "Nano Challenge 1 - Tugash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36268BB828192E6D00963A17 /* Debug */,
+				36268BB928192E6D00963A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36268B9B28192E6B00963A17 /* Project object */;
+}
